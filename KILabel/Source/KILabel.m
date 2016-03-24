@@ -42,9 +42,6 @@ NSString * const KILabelLinkKey = @"link";
 // Backing storage for text that is rendered by the layout manager
 @property (nonatomic, retain) NSTextStorage *textStorage;
 
-// Dictionary of detected links and their ranges in the text
-@property (nonatomic, copy) NSArray *linkRanges;
-
 // State used to trag if the user has dragged during a touch
 @property (nonatomic, assign) BOOL isTouchMoved;
 

@@ -139,6 +139,10 @@ IB_DESIGNABLE
  */
 @property (nonatomic, assign) IBInspectable BOOL systemURLStyle;
 
+
+// Dictionary of detected links and their ranges in the text
+@property (nonatomic, copy) NSArray *linkRanges;
+
 /**
  * Get the current attributes for the given link type.
  *
